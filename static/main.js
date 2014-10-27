@@ -18,8 +18,9 @@ var video = document.getElementById('video'),
 
 vimeoUrl.addEventListener('keyup', debounce(getVideo, 200));
 
-function getVideo() {
-  var id = !/^https?:\/\//i.test(vimeoUrl.value) ? 'http://' + vimeoUrl.value : vimeoUrl.value;
+function getVideo( vid ) {
+  var vid = vid || vimeoUrl.value,
+      id = !/^https?:\/\//i.test( vid ) ? 'http://' + vid : vid;
   id = url.parse(id).pathname;
   id = id.match(/\/(\d+)\/?/)[1];
   if ( id == lastId ) {
@@ -45,3 +46,5 @@ function startTheParty() {
   });
   asciiVideo.play();
 }
+
+getVideo('http://vimeo.com/69158874');
