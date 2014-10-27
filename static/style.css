@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+#url {
+  width: 200px;
+}
+
 pre {
   display: block;
   margin: 0 auto;

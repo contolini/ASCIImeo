@@ -32,7 +32,6 @@
   "preferGlobal": "true",
   "dependencies": {
     "debounce": "^1.0.0",
-    "url": "^0.10.1",
-    "valid-url": "^1.0.9"
+    "url": "^0.10.1"
   }
 }

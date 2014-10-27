@@ -14,8 +14,7 @@ var url = require('url');
 var video = document.getElementById('video'),
     vimeoUrl = document.getElementById('url'),
     request = new XMLHttpRequest(),
-    lastId,
-    data;
+    lastId;
 
 vimeoUrl.addEventListener('keyup', debounce(getVideo, 200));
 
