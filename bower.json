@@ -1,0 +1,25 @@
+{
+  "name": "asciimeo",
+  "version": "0.1.0",
+  "authors": [
+    "Chris Contolini <chris@contolini.com>"
+  ],
+  "description": "ASCII videos",
+  "keywords": [
+    "ascii",
+    "vimeo",
+    "asciimeo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jscii": "EnotionZ/jscii"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "asciimeo",
+  "version": "0.0.0",
+  "main": "lib/asciimeo.js",
+  "description": "ASCII Vimeo vids.",
+  "homepage": "http://github.com/contolini/asciimeo",
+  "bugs": "https://github.com/contolini/asciimeo/issues",
+  "author": {
+    "name": "Chris Contolini",
+    "email": "chris@contolini.com",
+    "url": "http://contolini.github.io/asciimeo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contolini/asciimeo"
+  },
+  "license": "GPLv3",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "asciimeo",
+    "vimeo",
+    "ascii"
+  ],
+  "scripts": {
+    "browser": "browserify static/main.js -s asciimeo | uglifyjs -m -c sequences,dead_code,conditionals,booleans,unused,if_return,join_vars,drop_console -o static/main.min.js"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "debounce": "^1.0.0",
+    "url": "^0.10.1",
+    "valid-url": "^1.0.9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jscii",
+  "homepage": "https://github.com/EnotionZ/jscii",
+  "_release": "7d153303d3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7d153303d3765a4858b29de8c31ffbfd6df7dbee"
+  },
+  "_source": "git://github.com/EnotionZ/jscii.git",
+  "_target": "*",
+  "_originalSource": "EnotionZ/jscii",
+  "_direct": true
+}
