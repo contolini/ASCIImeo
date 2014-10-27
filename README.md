@@ -1,6 +1,6 @@
 # ASCIImeo
 
-[http://contolini.github.io/asciimeo](http://contolini.github.io/asciimeo)
+[http://contolini.github.io/ASCIImeo/](http://contolini.github.io/ASCIImeo/)
 
 ## License
 
